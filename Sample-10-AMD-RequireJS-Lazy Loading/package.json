@@ -1,0 +1,17 @@
+{
+  "name": "monolithic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "lite-server": "^2.3.0",
+    "requirejs": "^2.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Example</title>
+</head>
+
+<body>
+    <h1>AMD Module System</h1>
+    <h1>RequireJS</h1>
+    <h1>Async Load / Load If Require</h1>
+    <input id="auth" type="button" value="Test">
+    <table id="persontable">
+        <tr>
+            <th>UserName</th>
+            <th>Name</th>
+            <th>Surname</th>
+        </tr>
+        <tr id="schema" style="visibility:hidden">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+<script src="./node_modules/requirejs/require.js"></script>
+<script>
+    requirejs.config({
+        baseUrl: './',
+        paths: {
+            // the left side is the module ID,
+            // the right side is the path to
+            // the jQuery file, relative to baseUrl.
+            // Also, the path should NOT include
+            // the '.js' file extension. This example            
+            // the HTML page.
+            jquery: 'node_modules/jquery/dist/jquery',
+        }
+    });
+</script>
+<script src="./main.js"></script>
+
+</html>

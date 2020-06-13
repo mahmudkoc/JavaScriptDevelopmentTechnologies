@@ -1,0 +1,21 @@
+{
+  "name": "monolithic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-dest": "^0.2.3",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.2.1",
+    "lite-server": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

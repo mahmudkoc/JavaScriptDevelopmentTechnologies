@@ -1,0 +1,16 @@
+{
+  "name": "monolithic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "lite-server": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "cat person-utility.js auth.js index.js > main-bundle.js && lite-server"
+  },
+  "author": "",
+  "license": "ISC"
+}
